@@ -1,0 +1,14 @@
+/* David Mendez
+	 Christian music site
+	 style.css
+*/
+.panel {
+	background-color: black;
+	color: white;
+}
+.embed-responsive-item {
+	padding: 15px;
+}
+.nav-wrapper {
+	height: 70px;
+}

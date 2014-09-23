@@ -2,6 +2,48 @@
 	 Christian music site
 	 style.css
 */
+
+/* FUTURE COLORS
+#398bb1: blue
+=====================================*/
+
+
+/* BODY
+=====================================*/
+body {
+  background-attachment: fixed;
+  background-image: url("../../assets/background.jpg");
+  background-position: center top;
+
+}
+
+/* NAVBAR
+=====================================*/
+.nav-wrapper {
+	height: 75px;
+}
+.navbar {
+	background-color: black; 
+}
+.navbar-inverse .navbar-nav .active a{
+	background-color: #398bb1;
+}
+.navbar-inverse .navbar-nav .active a:hover {
+	background-color: #398bb1;
+	color: white;
+}
+.navbar-inverse .navbar-nav li a:hover{
+	background-color: #ffd83c;
+	color: black;
+}
+/* CONTENT
+=======================================*/
+.red-h1 {
+	color: #c00000;
+}
+.blue-h2 {
+	color: #398bb1;
+}
 .panel {
 	background-color: black;
 	color: white;
@@ -9,6 +51,39 @@
 .embed-responsive-item {
 	padding: 15px;
 }
-.nav-wrapper {
-	height: 70px;
+/* CHORDS.HTML
+===========================================*/
+.list-group-item {
+	background-color: #204f64;
+	border: none;
+	border-bottom: 2px solid;
+	border-color: gray;
+	margin-bottom: 5px;
+	
+}
+.list-group-item:hover {
+	background-color: #398bb1;
+}
+.list-group-item a{
+	color: white;
+}
+.list-group-item a:hover {
+	color: black;
+}
+.list-group-item a {
+	text-decoration: none;
+}
+/* SONG LYRICS AND CHORDS
+=========================================*/
+.well {
+	background-color: gray;
+	color: white;
+	padding: 5px;
+	margin: 5px;
+}
+pre {
+	background-color: gray;
+	border-color: gray;
+	color: white;
+	padding: 0px;
 }
